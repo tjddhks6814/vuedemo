@@ -33,7 +33,6 @@ export default {
     name: 'Home',
     components: { Card },
     setup () {
-        // eslint-disable-next-line no-undef
         const state = reactive({
             items: []
         })
